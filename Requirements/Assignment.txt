@@ -1,0 +1,12 @@
+MeetingMaker Assignment
+
+Task:
+Create a simple SPA-application for an auction site with only 2 views.
+Using React Js Framework
+See the images as guidelines but you can also design as you wish.
+Please create a new branch using pattern {yourname}-branch and commit your code there when finished.
+View 1:
+The user can view a list of available products (see Auction Image1-MeetingMaker).
+The products can be hard-coded.
+View 2:
+The user can navigate to a detailed view of the product which also displays detailed bid info. (see Auction Image2-MeetingMaker) 
