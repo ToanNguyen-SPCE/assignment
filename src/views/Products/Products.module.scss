@@ -1,0 +1,62 @@
+@import '../../../styles/main';
+
+.Products {
+    padding: 20px 0;
+}
+
+.ProductsTitle {
+    color: $brow;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.ProductImages {
+    height: 200px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+.blockContent {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $brow;
+    margin-right: 5px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: center;
+    }
+}
+.contentDetails {
+    max-width: calc(100% - 40px);
+}
+
+.ProductTitle {
+    font-weight: 600;
+    display: block;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: $brow;
+    &:hover {
+        text-decoration: none;
+        transition: 0.3s ease-in all;
+    }
+}
+
+.Time {
+    font-size: 14px;
+}

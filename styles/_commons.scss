@@ -1,0 +1,25 @@
+.awe-bagged {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background-color: #97c520;
+    color: #f8fcf8;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.time {
+    font-size: 14px;
+    color: #767a81;
+}
+
+.sidebar-open {
+    @media (max-width: 768px) {
+        left: 0 !important;
+    }
+}
+.fz-600 {
+    font-weight: 600;
+}
