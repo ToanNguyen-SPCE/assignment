@@ -1,6 +1,7 @@
 import auction1 from '../images/auction-1.jpeg';
 import auction2 from '../images/auction-2.jpeg';
 import auction3 from '../images/auction-3.jpeg';
+import icon from '../images/icon.png'
 
 const productsMock = [
     {
@@ -37,6 +38,7 @@ const productsMock = [
         title: 'The Auction House Buzzwords New Collectors Need to Know',
         description: '1 year of training with Nordic Wellness. The product is worth 5990 SEK',
         updated: '30/3/2021',
+        logo: icon,
         gallery: [
             {
               original: auction1,
@@ -65,6 +67,7 @@ const productsMock = [
         title: 'The Auction House Buzzwords New Collectors Need to Know',
         description: '1 year of training with Nordic Wellness. The product is worth 5990 SEK',
         updated: '29/3/2021',
+        logo: icon,
         gallery: [
             {
               original: auction1,
@@ -93,6 +96,7 @@ const productsMock = [
         title: 'The Auction House Buzzwords New Collectors Need to Know',
         description: '1 year of training with Nordic Wellness. The product is worth 5990 SEK',
         updated: '29/3/2021',
+        logo: icon,
         gallery: [
             {
               original: auction1,
@@ -121,6 +125,7 @@ const productsMock = [
         title: 'Gym Card - Nordic Wellness',
         description: '1 year of training with Nordic Wellness. The product is worth 5990 SEK',
         updated: '1/4/2021',
+        logo: icon,
         gallery: [
             {
               original: auction1,
@@ -149,6 +154,7 @@ const productsMock = [
         title: 'The Auction House Buzzwords New Collectors Need to Know',
         description: '1 year of training with Nordic Wellness. The product is worth 5990 SEK',
         updated: '30/3/2021',
+        logo: icon,
         gallery: [
             {
               original: auction1,
@@ -177,6 +183,7 @@ const productsMock = [
         title: 'The Auction House Buzzwords New Collectors Need to Know',
         description: '1 year of training with Nordic Wellness. The product is worth 5990 SEK',
         updated: '29/3/2021',
+        logo: icon,
         gallery: [
             {
               original: auction1,
@@ -205,6 +212,7 @@ const productsMock = [
         title: 'The Auction House Buzzwords New Collectors Need to Know',
         description: '1 year of training with Nordic Wellness. The product is worth 5990 SEK',
         updated: '29/3/2021',
+        logo: icon,
         gallery: [
             {
               original: auction1,

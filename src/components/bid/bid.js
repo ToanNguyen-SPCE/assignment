@@ -106,7 +106,7 @@ const Bid = (props) => {
                         <div>
                             <button
                                 type="button"
-                                className="btn btn-secondary btn-block"
+                                className="btn btn-secondary btn-block mb-3"
                                 disabled={yourBid < bidNumber || bidNumber <= maxBid()}
                                 onClick={() => handleBid()}
                             >Place bid</button>

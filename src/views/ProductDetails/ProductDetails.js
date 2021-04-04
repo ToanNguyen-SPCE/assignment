@@ -23,7 +23,7 @@ function ProductDetails () {
     <div className={classes.ProductDetails}>
         
         <div className="row">
-            <div className="col-md-5 col-12">
+            <div className="col-md-5 col-12 mb-3">
                 {
                     product.gallery && (
                         <ImageGallery items={product.gallery} showFullscreenButton={false} showPlayButton={false} additionalClass="awe-gallery"/>

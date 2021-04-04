@@ -41,11 +41,11 @@ const Sidebar = (props) => {
                     <img src={user.Avatar} alt="avatar" />
                 </div>
                 <div className={styles.Name}>
-                    <h2 className={styles.UserName}>{user.name}</h2>
                     <div className={styles.yourBid}>
-                        <span className="awe-bagged mr-3"></span>
-                        {user.yourBid}
+                        <span className="awe-bagged mr-2">{user.yourBid}</span>
+                        
                     </div>
+                    <h2 className={styles.UserName}>{user.name}</h2>
                 </div>
             </div>
             <ul className={styles.Menu}>
